@@ -1,0 +1,27 @@
+{
+  "name": "sdk",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmpt-474-edu-monitor/sdk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmpt-474-edu-monitor/sdk/issues"
+  },
+  "homepage": "https://github.com/cmpt-474-edu-monitor/sdk#readme",
+  "dependencies": {
+    "aws-sdk": "^2.868.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
