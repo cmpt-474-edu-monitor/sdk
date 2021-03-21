@@ -164,6 +164,8 @@ You don't need **InvokeAnyLambdaRole**. Leaving execution role to default.
 In your `index.js` file:
 
 ```js
+const { ServiceBuilder } = require('edu-monitor-sdk')
+
 async function signup(ctx, userInfo, password) {
     // implementation omitted...
 }
@@ -188,6 +190,8 @@ If your implementation used `this` keyword, you might need to explicitly bind it
 enclosing lexical context:
 
 ```js
+const { ServiceBuilder } = require('edu-monitor-sdk')
+
 class UserService {
     async signup(ctx, userInfo, password) {
         // implementation omitted...
